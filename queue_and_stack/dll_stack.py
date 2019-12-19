@@ -21,11 +21,3 @@ class Stack:
 
     def len(self):
         return len(self.storage)
-
-
-s = Stack()
-s.push(100)
-s.push(101)
-s.push(105)
-for i in range(s.len()):
-    print(f"Pop{s.pop()}")
